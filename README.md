@@ -34,7 +34,7 @@ Please contact me if you want hardware design sources (in Ki-CAD format).
 Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to the GPIO indices in the table below.
 
 
-![pinmux](img\pinmux.png)
+![pinmux](img/pinmux.png)
 
 ## Flashing New Firmware
 See [Guide on Firmware](docs/fwGuide.md)
