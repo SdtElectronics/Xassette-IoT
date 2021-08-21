@@ -31,7 +31,10 @@ See [Releases](https://github.com/SdtElectronics/Xassette-IoT/releases/)
 Please contact me if you want hardware design sources (in Ki-CAD format).
 
 
-Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to the GPIO indices in the GPIO pin mapping chapter of the SoC datasheet.
+Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to the GPIO indices in the table below.
+
+
+![pinmux](img\pinmux.png)
 
 ## Flashing New Firmware
 See [Guide on Firmware](docs/fwGuide.md)

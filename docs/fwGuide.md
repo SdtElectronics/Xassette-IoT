@@ -1,6 +1,6 @@
 # Guide on Firmware
 ## Factory Partition Backup (IMPORTANT)
-The wireless calibration file (aka ART file) resides in the factory partition of original firmware. If you proceed with altering the original firmware without backing up this partition, you are at the risk of permanent lost of the calibration data. Therefore, be sure you have backed up this partition before flashing your device!
+The wireless calibration file (aka ART file) resides in the factory partition of original firmware. If you proceed with altering the original firmware without backing up this partition, you are at the risk of permanent loss of the calibration data. Therefore, be sure you have backed up this partition before flashing your device!
 
 
 Connect to the type-C port and your PC should be able to probe the onboard USB-Serial interface. Windows users may need to install CH340 driver manually. The configuration of serial is 57600bps, 8bits, no even, 1 stop bit. Open a serial terminal on your PC and run following command:
