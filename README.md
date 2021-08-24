@@ -38,3 +38,8 @@ Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to 
 
 ## Flashing New Firmware
 See [Guide on Firmware](docs/fwGuide.md)
+
+## Errata
+In v0.2
+* Silk text error: MDI1 should be MDI2
+* Net error: 1V8 is not connected
