@@ -72,6 +72,7 @@ Target System: MediaTek Ralink MIPS
   Subtarget: MT76x8 based boards 
      Target Profile: Widora-NEO(16M) 
 ```
+NOTE: You need to swap the onboard spi flash with a 16M one, or manually change the mtd partition table in device tree.
 ### 4. Build:
 ```
 $ make -j4
