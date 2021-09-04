@@ -33,17 +33,46 @@ $ git clone https://github.com/widora/u-boot-mt7688.git
 $ cd u-boot-mt7688
 $ sudo tar xvfj buildroot-gcc342.tar.bz2 -C /opt/
 ```
-### Install openjdk:
+Install openjdk:
 ```
 $ sudo apt install openjdk-8-jdk
 or $ sudo pacman -S jdk8-openjdk
 ```
 
 ### 3. Build
+Configure DDR:
+```
+$ make menuconfig
+```
+Change "DDR Component" entry to 512Mb
+
+Build:
 ```
 $ make clean;make
 ```
 The output file would be 'uboot.bin'
 
 ## OpenWrt
-* TODO
+### 1. Grab the code:
+```
+$ git clone https://github.com/widora/openwrt.git
+```
+### 2. Update feeds:
+```
+$ ./scripts/feeds update -a && ./scripts/feeds install -a
+```
+### 3. Configure OpenWrt:
+```
+$ rm .config
+$ make menuconfig
+```
+Chose:
+```
+Target System: MediaTek Ralink MIPS 
+  Subtarget: MT76x8 based boards 
+     Target Profile: Widora-NEO(16M) 
+```
+### 4. Build:
+```
+$ make -j4
+```
