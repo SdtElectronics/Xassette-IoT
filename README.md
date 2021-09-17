@@ -11,9 +11,15 @@
 
 
 Note:
-1. UART1 is used as debug serial at baud rate 57600
+1. UART1 is used as debug serial at baud rate 57600 with default firmware
 2. Shared with onboard NOR flash
 3. Supports SDXC up to 2TB
+
+## Flashing New Firmware
+* See [Guide on Firmware](docs/fwGuide.md)
+
+## Build New Firmware From Source
+* See [Build From Scratch](docs/buildingGuide.md)
 
 ## Schematic
 ![sch](hw/schematic.png)
@@ -35,9 +41,6 @@ Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to 
 
 
 ![pinmux](img/pinmux.png)
-
-## Flashing New Firmware
-See [Guide on Firmware](docs/fwGuide.md)
 
 ## Errata
 In v0.2
