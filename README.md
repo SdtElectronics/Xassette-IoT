@@ -46,3 +46,5 @@ Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to 
 In v0.2
 * Silk text error: MDI1 should be MDI2
 * Net error: 1V8 is not connected
+* Annotation and silk text error: pin45 should be pin12
+* Annotation and silk text error: pin46 should be pin13
