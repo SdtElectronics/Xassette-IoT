@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name HR911105A)(type Legacy)(uri E:/DOWNLOADS_CH/HR911105A/HR911105A.lib)(options "")(descr ""))
+  (lib (name 2021-08-03_04-26-35)(type Legacy)(uri E:/DOWNLOADS_CH/ul_SY8120B1ABC/KiCAD/2021-08-03_04-26-35/2021-08-03_04-26-35.lib)(options "")(descr ""))
+)

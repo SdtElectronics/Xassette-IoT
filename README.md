@@ -27,20 +27,15 @@ Note:
 
 PDF format is available at [hw/anBreakout.pdf](hw/anBreakout.pdf)
 
-## Board Gerber
-See [Releases](https://github.com/SdtElectronics/Xassette-IoT/releases/)
-
-## Schematic & PCB Layout Source
-![peach](https://z3.ax1x.com/2021/08/15/fg78RH.jpg)
-
-
-Please contact me if you want hardware design sources (in Ki-CAD format).
-
-
 Note: `IOxx` in the schematic as well as the silk numbers onboard correspond to the GPIO indices in the table below.
 
 
 ![pinmux](img/pinmux.png)
+
+
+## Board Gerber
+See [Releases](https://github.com/SdtElectronics/Xassette-IoT/releases/)
+
 
 ## Errata
 In v0.2

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 2021-08-03_04-26-35)(type KiCad)(uri E:/DOWNLOADS_CH/ul_SY8120B1ABC/KiCAD/2021-08-03_04-26-35)(options "")(descr ""))
+  (lib (name HR911105A)(type KiCad)(uri E:/DOWNLOADS_CH/HR911105A)(options "")(descr ""))
+  (lib (name llibs)(type KiCad)(uri ${KIPRJMOD}/llibs)(options "")(descr ""))
+)
